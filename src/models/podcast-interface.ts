@@ -1,3 +1,6 @@
-export interface Podcast{
-    nome: String;
+export interface PodcastModel{
+    podcastName: String;
+    videoId: String;
+    episodeName: String;
+    categories: [];
 }
